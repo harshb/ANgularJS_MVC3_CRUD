@@ -1,0 +1,141 @@
+﻿<script type="text/javascript">
+
+    function PhoneListCtrl($scope, $http) {
+        fetch_data();
+       
+
+        $scope.orderProp = 'age';
+
+      
+
+        function fetch_data() {
+            $http.get('/Angular/GetPhones' + '?breakcache=' + Math.random()).success(function (data) {
+                $scope.phones = data;
+            });
+        };
+
+
+        $scope.newrecord = function () {
+
+        
+        /*
+            var phone = $scope.phones.push({
+                id: $scope.phones.length,
+                name: 'New',
+                snippet: ''
+            });
+
+          //  $scope.form = phone;
+
+          */
+
+         
+
+            $scope.formadd.id = $scope.phones.length;
+            var postform = JSON.stringify($scope.formadd);
+
+           
+            $http.post('/Angular/SavePhone', postform).success(function (data) {
+            fetch_data();
+            });
+          
+
+
+
+        };
+
+        $scope.showdetails = function (phone) {
+            $scope.form = phone;
+        };
+
+        $scope.updaterecord = function () {
+
+            var postform = JSON.stringify($scope.form);
+
+            $http.post('/Angular/SavePhone', postform).success(function (data) {
+                fetch_data();
+            });
+        };
+
+    }
+
+</script>
+<div lang="en" ng-app>
+
+    <div class="container-fluid" ng-controller="PhoneListCtrl">
+     <pre ng-bind-template=" {{name}}!"></pre>
+        <div class="row">
+            <div class="span12">
+                Search:
+                <input ng-model="query">
+                Sort by:
+                <select ng-model="orderProp">
+                    <option value="name">Alphabetical</option>
+                    <option value="age">Newest</option>
+                </select>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <!--Body content-->
+            <div class="span8">
+                <ul class="phones">
+                    <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
+                       
+                       <a href="" ng-click="showdetails(phone)">{{phone.name}}</a>
+                        <p>
+                            {{phone.snippet}}</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Body content end -->
+          
+            <!--Sidebar content-->
+            <div class="span4">
+             
+                <button ng-click="newrecord()">Add Record</button>
+
+              <h4> Update</h4>
+                <form name="myUpdateForm">
+                
+                <label>Name:</label
+                ><br />
+                <input type="text" ng-model="form.name" required />
+                <br />
+                <label>Snippet:</label>
+                <br />
+                <input type="text" ng-model="form.snippet" required />
+                <br />
+                  <button ng-click="updaterecord()">Update Record</button>
+                </form>
+                
+             
+
+                 <br />
+
+                
+                 <h4>Add</h4>
+                <form name="myaddForm">
+                <label>Name:</label
+                ><br />
+                <input type="text" ng-model="formadd.name" required />
+                <br />
+                <label>Snippet:</label>
+                <br />
+                <input type="text" ng-model="formadd.snippet" required />
+                <br />
+                  <button ng-click="newrecord()">Add Record</button>
+                </form>
+                
+                
+                
+
+                 
+               
+            </div>
+            <!--Sidebar content end -->
+        </div>
+        <!--row-->
+    </div>
+    <!--container-->
+</div>
+<!--app-->

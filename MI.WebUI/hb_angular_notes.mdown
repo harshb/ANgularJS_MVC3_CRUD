@@ -1,0 +1,25 @@
+#Run
+ ./scripts/web-server.js
+
+#Unit Test
+
+1. In a separate terminal window or tab, go to the angular-phonecat directory and 
+
+run S
+./scripts/test-server.sh
+
+2. Open a new browser window and navigate to 
+
+http://localhost:9876
+
+3. Choose "Capture this browser in strict mode".
+
+At this point, you can leave this window open and forget about it. JsTestDriver will use it to execute the tests and report the results in the terminal.
+
+4. Execute the test by running
+
+ ./scripts/test.sh
+
+#End to end
+
+1. open : http://localhost:8000/test/e2e/runner.html

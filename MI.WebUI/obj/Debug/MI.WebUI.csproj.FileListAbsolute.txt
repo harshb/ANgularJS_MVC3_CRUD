@@ -1,0 +1,64 @@
+C:\MI\Tab.WebUI\bin\MI.WebUI.dll
+C:\MI\Tab.WebUI\bin\MI.WebUI.pdb
+C:\MI\Tab.WebUI\bin\EntityFramework.dll
+C:\MI\Tab.WebUI\bin\MI.Domain.dll
+C:\MI\Tab.WebUI\bin\MI.Domain.pdb
+C:\MI\Tab.WebUI\bin\EntityFramework.xml
+C:\MI\Tab.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\MI\Tab.WebUI\obj\Debug\MI.WebUI.dll
+C:\MI\Tab.WebUI\obj\Debug\MI.WebUI.pdb
+C:\MI Git\Tab.WebUI\bin\MI.WebUI.dll
+C:\MI Git\Tab.WebUI\bin\MI.WebUI.pdb
+C:\MI Git\Tab.WebUI\bin\EntityFramework.dll
+C:\MI Git\Tab.WebUI\bin\MI.Domain.dll
+C:\MI Git\Tab.WebUI\bin\MI.Domain.pdb
+C:\MI Git\Tab.WebUI\bin\EntityFramework.xml
+C:\MI Git\Tab.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\MI Git\Tab.WebUI\obj\Debug\MI.WebUI.dll
+C:\MI Git\Tab.WebUI\obj\Debug\MI.WebUI.pdb
+C:\MIGit\Tab.WebUI\bin\MI.WebUI.dll
+C:\MIGit\Tab.WebUI\bin\MI.WebUI.pdb
+C:\MIGit\Tab.WebUI\bin\EntityFramework.dll
+C:\MIGit\Tab.WebUI\bin\MI.Domain.dll
+C:\MIGit\Tab.WebUI\bin\MI.Domain.pdb
+C:\MIGit\Tab.WebUI\bin\EntityFramework.xml
+C:\MIGit\Tab.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\MIGit\Tab.WebUI\obj\Debug\MI.WebUI.dll
+C:\MIGit\Tab.WebUI\obj\Debug\MI.WebUI.pdb
+C:\JQueryUIWidgets\Tab.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\JQueryUIWidgets\Tab.WebUI\obj\Debug\MI.WebUI.dll
+C:\JQueryUIWidgets\Tab.WebUI\bin\MI.WebUI.dll
+C:\JQueryUIWidgets\Tab.WebUI\bin\MI.WebUI.pdb
+C:\JQueryUIWidgets\Tab.WebUI\bin\EntityFramework.xml
+C:\JQueryUIWidgets\Tab.WebUI\obj\Debug\MI.WebUI.pdb
+C:\JQueryUIWidgets\MI.WebUI\bin\MI.WebUI.dll
+C:\JQueryUIWidgets\MI.WebUI\bin\MI.WebUI.pdb
+C:\JQueryUIWidgets\MI.WebUI\bin\EntityFramework.xml
+C:\JQueryUIWidgets\MI.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\JQueryUIWidgets\MI.WebUI\obj\Debug\MI.WebUI.dll
+C:\JQueryUIWidgets\MI.WebUI\obj\Debug\MI.WebUI.pdb
+C:\_hbSamples\JQueryUIWidgets\MI.WebUI\bin\MI.WebUI.dll
+C:\_hbSamples\JQueryUIWidgets\MI.WebUI\bin\MI.WebUI.pdb
+C:\_hbSamples\JQueryUIWidgets\MI.WebUI\bin\EntityFramework.xml
+C:\_hbSamples\JQueryUIWidgets\MI.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\_hbSamples\JQueryUIWidgets\MI.WebUI\obj\Debug\MI.WebUI.dll
+C:\_hbSamples\JQueryUIWidgets\MI.WebUI\obj\Debug\MI.WebUI.pdb
+C:\_hbSamples\AngularMVC\MI.WebUI\bin\MI.WebUI.dll
+C:\_hbSamples\AngularMVC\MI.WebUI\bin\MI.WebUI.pdb
+C:\_hbSamples\AngularMVC\MI.WebUI\bin\EntityFramework.xml
+C:\_hbSamples\AngularMVC\MI.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\_hbSamples\AngularMVC\MI.WebUI\obj\Debug\MI.WebUI.dll
+C:\_hbSamples\AngularMVC\MI.WebUI\obj\Debug\MI.WebUI.pdb
+C:\AngularMVC\MI.WebUI\bin\MI.WebUI.dll
+C:\AngularMVC\MI.WebUI\bin\MI.WebUI.pdb
+C:\AngularMVC\MI.WebUI\bin\Dynamic.dll
+C:\AngularMVC\MI.WebUI\bin\EntityFramework.xml
+C:\AngularMVC\MI.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\AngularMVC\MI.WebUI\obj\Debug\MI.WebUI.dll
+C:\AngularMVC\MI.WebUI\obj\Debug\MI.WebUI.pdb
+C:\ClientSideComparison\AngularMVC\MI.WebUI\bin\MI.WebUI.dll
+C:\ClientSideComparison\AngularMVC\MI.WebUI\bin\MI.WebUI.pdb
+C:\ClientSideComparison\AngularMVC\MI.WebUI\bin\EntityFramework.xml
+C:\ClientSideComparison\AngularMVC\MI.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\ClientSideComparison\AngularMVC\MI.WebUI\obj\Debug\MI.WebUI.dll
+C:\ClientSideComparison\AngularMVC\MI.WebUI\obj\Debug\MI.WebUI.pdb
